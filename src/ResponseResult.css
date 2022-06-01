@@ -1,0 +1,11 @@
+.responseResult p {
+  padding: 12px;
+}
+
+.responseResult .phonetic {
+  font-size: 16px;
+}
+
+.responseResult .synonym {
+  margin-left: 2px;
+}
