@@ -8,7 +8,16 @@ export default function App() {
       <div className="App">
         <Dictionary />
       </div>
-      <footer>Coded by Grace Johnson, open source on GitHUB</footer>
+      <footer>
+        Coded by Grace Johnson, open source on{" "}
+        <a
+          href="https://github.com/GraceJ0105/dictionary-react-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHUB
+        </a>
+      </footer>
     </div>
   );
 }
