@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="container mt-5 card">
       <div className="App">
-        <Dictionary />
+        <Dictionary defaultWord="travel" />
       </div>
       <footer>
         Coded by Grace Johnson, open source on{" "}
