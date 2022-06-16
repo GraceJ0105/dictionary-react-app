@@ -6,7 +6,7 @@ export default function PhotoResponse(props) {
       <div className="photos row">
         {props.data.map(function (photo, index) {
           return (
-            <div key={index} className="mt-4 col-3">
+            <div key={index} className="mt-4 col-md-3">
               <img
                 src={photo.src.portrait}
                 alt={props.alt}
