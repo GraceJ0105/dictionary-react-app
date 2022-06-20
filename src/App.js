@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/GraceJ0105/dictionary-react-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHUB
           </a>
