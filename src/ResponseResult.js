@@ -20,7 +20,7 @@ export default function ResponseResult(props) {
           {props.data.meanings.map(function (meaning, index) {
             return (
               <div key={index} className="card mt-4">
-                <h3 className="card-header"> {meaning.partOfSpeech}:</h3>
+                <h3 className="card-header part-of-speech"> {meaning.partOfSpeech}:</h3>
                 <p className="card-text">
                   {" "}
                   {meaning.definitions[0].definition}
